@@ -1,0 +1,108 @@
+{
+  "uid" : "bb71c6230517f6b1",
+  "name" : "test_search_cancel",
+  "fullName" : "testcase.test_search.TestSearch#test_search_cancel",
+  "historyId" : "26c30130c85079a24517cb6fb324320a",
+  "time" : {
+    "start" : 1617868074357,
+    "stop" : 1617868076490,
+    "duration" : 2133
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "record",
+    "time" : {
+      "start" : 1617866724450,
+      "stop" : 1617866724458,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "409f0ed2732d2bc3",
+      "name" : "891fe3f8-9bd7-4169-9076-24831ac42d11-attachment.png",
+      "source" : "409f0ed2732d2bc3.png",
+      "type" : "image/png",
+      "size" : 426334
+    }, {
+      "uid" : "2c49c3e586a3bad7",
+      "name" : "log",
+      "source" : "2c49c3e586a3bad7.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "record::0",
+    "time" : {
+      "start" : 1617869365227,
+      "stop" : 1617869365227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2SAB6FS"
+  }, {
+    "name" : "thread",
+    "value" : "13412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb71c6230517f6b1.json",
+  "parameterValues" : [ ]
+}

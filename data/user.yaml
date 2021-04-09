@@ -1,0 +1,35 @@
+goto_usermessage:
+       - by: id
+         locator: "com.mstz.xf:id/name"
+         action: click
+       - action: swipe
+         value1: 0.5
+         value2: 0.7
+         value3: 0.5
+         value4: 0.3
+       - by: xpath
+         locator: "//*[contains(@resource-id,'recyclerView')]/android.widget.RelativeLayout[4]//*[@text='系统消息：']"
+         action: click
+goto_usercollect:
+       - by: xpath
+         locator: "//*[@text='我的收藏']"
+         action: click
+       - action: swipe
+         value1: 0.5
+         value2: 0.7
+         value3: 0.5
+         value4: 0.3
+       - by: xpath
+         locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.view.ViewGroup[4]//*[@resource-id='com.mstz.xf:id/image']"
+         action: click
+goto_clock:
+       - by: xpath
+         locator: "//*[@text='我的打卡']"
+         action: click
+goto_shop_clue:
+       - by: xpath
+         locator: "//*[@text='我上传的店铺信息']"
+         action: click
+       - by: xpath
+         locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.view.ViewGroup[1]"
+         action: click

@@ -1,0 +1,402 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element 'By.id: com.mstz.xf:id/searchText' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "test_shop_price_null",
+        "uid" : "c02596948f842820",
+        "parentUid" : "9fd4bd5ed1437ccae101830d8049f844",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867115497,
+          "stop" : 1617867115497,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fd4bd5ed1437ccae101830d8049f844"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up",
+      "children" : [ {
+        "name" : "test_shop_describe_null",
+        "uid" : "9855c00347de9409",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867239873,
+          "stop" : 1617867241309,
+          "duration" : 1436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_address_detail",
+        "uid" : "6cff7c57d3f19a87",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867344010,
+          "stop" : 1617867346143,
+          "duration" : 2133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_hours",
+        "uid" : "89de994ec0842d3a",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867400284,
+          "stop" : 1617867400284,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_phone_str",
+        "uid" : "eae73785a1a29450",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867503943,
+          "stop" : 1617867503943,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_phone_chinese",
+        "uid" : "42bbe695dc2440e1",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867609482,
+          "stop" : 1617867609482,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_zhaopaic",
+        "uid" : "b3dbb005032ab801",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867714164,
+          "stop" : 1617867714164,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_zhaopaic_photo_null",
+        "uid" : "165a93b72ad499fd",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867821742,
+          "stop" : 1617867821742,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search",
+        "uid" : "4e7be86e7254b441",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867840888,
+          "stop" : 1617867840888,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_history",
+        "uid" : "3e1c355cf97cb076",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617867939138,
+          "stop" : 1617867939138,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_result_address_shopdetail",
+        "uid" : "dbd5cf308d7b88fd",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868198318,
+          "stop" : 1617868202438,
+          "duration" : 4120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_zhaopaic",
+        "uid" : "64361c96cb27578f",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868463658,
+          "stop" : 1617868481671,
+          "duration" : 18013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_vote",
+        "uid" : "ad33d67a5a080b6c",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868481720,
+          "stop" : 1617868481720,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_message",
+        "uid" : "3ed26fc15bca102a",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868601845,
+          "stop" : 1617868615643,
+          "duration" : 13798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_collect",
+        "uid" : "e726ced4a39d3aaf",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868632905,
+          "stop" : 1617868639888,
+          "duration" : 6983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_clock",
+        "uid" : "6d7a2648e54c5a37",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868657099,
+          "stop" : 1617868661224,
+          "duration" : 4125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_clue",
+        "uid" : "eb145b0f702192fd",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868678767,
+          "stop" : 1617868687358,
+          "duration" : 8591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_shop_pass",
+        "uid" : "e35dd85a3448756b",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868824224,
+          "stop" : 1617868824224,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shop_add",
+        "uid" : "75d1d71c45a2fbf",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868849183,
+          "stop" : 1617868849184,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_usersex_nan",
+        "uid" : "7ea3fab0dedc37e5",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868968813,
+          "stop" : 1617868968813,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_usercity_list",
+        "uid" : "e9f83da3baa9e5e1",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617869005399,
+          "stop" : 1617869010438,
+          "duration" : 5039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_usercity_hot",
+        "uid" : "f17cafd50d8c38f1",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617869029904,
+          "stop" : 1617869031947,
+          "duration" : 2043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_usercity_search",
+        "uid" : "e31c7c48c85b1f39",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617869053637,
+          "stop" : 1617869056994,
+          "duration" : 3357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_usercity_history",
+        "uid" : "20b8d8c47ec9bfa2",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617869103035,
+          "stop" : 1617869120775,
+          "duration" : 17740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_userupdate",
+        "uid" : "d01e8be62e1610f4",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617869141986,
+          "stop" : 1617869145124,
+          "duration" : 3138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_userhome_data",
+        "uid" : "74dfe0baf9f90465",
+        "parentUid" : "61210c8c1bc92ab0b3c53e7d2009b9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617869165123,
+          "stop" : 1617869168553,
+          "duration" : 3430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61210c8c1bc92ab0b3c53e7d2009b9f7"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: socket hang up",
+      "children" : [ {
+        "name" : "test_shop_photo",
+        "uid" : "794e04257d50b27b",
+        "parentUid" : "907a0cdbd27dfea9664bb39521772245",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868413556,
+          "stop" : 1617868421939,
+          "duration" : 8383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "907a0cdbd27dfea9664bb39521772245"
+    }, {
+      "name" : "ValueError: 元素未找到，且不在黑名单中",
+      "children" : [ {
+        "name" : "test_user_shop_check",
+        "uid" : "9609bebe1be9daf7",
+        "parentUid" : "a4454ee39cce6e069ad4d0eea2fbe415",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868687468,
+          "stop" : 1617868687468,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_shop_not_pass",
+        "uid" : "aa56f9853b1d10ee",
+        "parentUid" : "a4454ee39cce6e069ad4d0eea2fbe415",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617868755592,
+          "stop" : 1617868755592,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4454ee39cce6e069ad4d0eea2fbe415"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,38 @@
+shop_check:
+  - by: xpath
+    locator: "//*[@text='审核中' and @class='android.widget.TextView']"
+    action: click
+  - action: set_implicitly_wait
+    value: 5
+  - action: swipe
+    value1: 0.5
+    value2: 0.8
+    value3: 0.5
+    value4: 0.2
+  - by: xpath
+    locator:  "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.RelativeLayout[3]//*[@resource-id='com.mstz.xf:id/image']"
+    action: click
+shop_not_pass:
+  - by: xpath
+    locator: "//*[@text='审核失败' and @class='android.widget.TextView']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.RelativeLayout[1]//*[@resource-id='com.mstz.xf:id/image']"
+    action: click
+shop_pass:
+  - by: xpath
+    locator: "//*[@text='审核中' and @class='android.widget.TextView']"
+    action: click
+  - by: xpath
+    locator: "//*[@text='审核失败' and @class='android.widget.TextView']"
+    action: click
+  - by: xpath
+    locator: "//*[@content-desc='审核通过']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.RelativeLayout[1]//*[@resource-id='com.mstz.xf:id/image']"
+    action: click
+shop_add:
+  - by: id
+    locator: 'com.mstz.xf:id/right_img'
+    action: click

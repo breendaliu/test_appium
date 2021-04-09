@@ -1,0 +1,112 @@
+search:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+#    - action: swipe
+#      value1: 0.5
+#      value2: 0.7
+#      value3: 0.5
+#      value4: 0.3
+    - action: press_keycode(66)
+search_word_list:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+    - by: xpath
+      locator:  "//*[@resource-id='com.mstz.xf:id/searchRecyclerView']/android.widget.LinearLayout[1]"
+      action: click
+search_hotword:
+    - by: set_implicitly_wait
+      value: 5
+    - by: xpath
+      locator: "//*[@resource-id='com.mstz.xf:id/hotRecyclerView']/android.widget.LinearLayout[1]"
+      action: click
+search_word_history:
+    - by: xpath
+      locator: '//*[@resource-id="com.mstz.xf:id/historyRecyclerView"]/android.widget.RelativeLayout[1]'
+      action: click
+search_history_word_delete:
+    - by: xpath
+      locator: "//*[@resource-id='com.mstz.xf:id/historyRecyclerView']/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"
+      action: click
+search_shop_without:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+    - action: press_keycode(66)
+    - by: id
+      locator: 'campaign'
+      action: click
+search_cancel:
+    - by: id
+      locator: "tvCancel"
+      action: click
+search_result_address:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+    - action: press_keycode(66)
+    - by: id
+      locator: "kindsTv3"
+      action: click
+    - by: xpath
+      locator: '//*[@resource-id="com.mstz.xf:id/searchRecyclerView"]/android.widget.LinearLayout[2]'
+      action: click
+search_result_cancel:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+    - action: press_keycode(66)
+    - by: id
+      locator: "tvCancel"
+      action: click
+search_result_address_shopdetail:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+    - action: press_keycode(66)
+    - by: id
+      locator: "kindsTv3"
+      action: click
+    - by: xpath
+      locator: '//*[@resource-id="com.mstz.xf:id/searchRecyclerView"]/android.widget.LinearLayout[1]'
+      action: click
+    - by: xpath
+      locator: '//*[@resource-id="com.mstz.xf:id/recyclerView"]/android.widget.RelativeLayout[2]'
+      action: click
+search_result_add_shopdetail:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: ${searchword}
+    - action: press_keycode(66)
+    - by: id
+      locator: "com.mstz.xf:id/uploadTv"
+      action: click

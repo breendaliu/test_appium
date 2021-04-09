@@ -1,0 +1,113 @@
+# 上传菜单
+shop_photo:
+      - by: id
+        locator: "tvZhaoPai"
+        action: click
+      - by: xpath
+        locator: "//*[@resource-id='com.mstz.xf:id/picture_recycler']/android.widget.RelativeLayout[9]//*[@resource-id='com.mstz.xf:id/btnCheck']"
+        action: click
+      - by: xpath
+        locator: "//*[@text='已完成']"
+        action: click
+# 上传人均价
+shop_price:
+      - by: xpath
+        locator: "//*[@text='上传人均价' and contains(@resource-id, 'updatePrice')]"
+        action: click
+      - by: id
+        locator: "etPhone"
+        action: click
+      - by: id
+        locator: "etPhone"
+        action: send
+        value: ${price}
+      - by: xpath
+        locator: "//*[@text='确认提交']"
+        action: click
+# 编辑店铺描述
+shop_describe:
+      - by: xpath
+        locator: "//*[@text='编辑店铺描述' and contains(@resource-id, 'editTv')]"
+        action: click
+      - by: id
+        locator: "etDescribe"
+        action: send
+        value: ${describe}
+      - by: id
+        locator: "tvSubmit"
+        action: click
+# 点击地址，查看路线
+shop_address:
+      - by: id
+        locator: "address"
+        action: click
+      - by: xpath
+        locator: "//*[@resource-id='com.mstz.xf:id/back']/android.widget.ImageView"
+        action: click
+# 完善位置信息
+shop_address_detail:
+      - by: xpath
+        locator: "//*[@text='完善位置信息']"
+        action: click
+      - by: id
+        locator:  "com.mstz.xf:id/etDescribe"
+        action: send
+        value: ${address}
+      - by: xpath
+        locator: "//*[@text='确认提交' and contains(@resource-id, 'tvSubmit')]"
+        action: click
+# 编辑电话
+shop_phone:
+      - by: xpath
+        locator: "//*[@text='编辑电话' and contains(@resource-id, 'etPhone')]"
+        action: click
+      - by: xpath
+        locator: "//*[@text='请输入商家的电话号码' and contains(@resource-id, 'etPhone')]"
+        action: send
+        value: ${phone}
+      - by: xpath
+        locator: "//*[@text='确认提交' and contains(@resource-id, 'tvSubmit')]"
+        action: click
+# 上传菜单
+shop_menu:
+      - by: xpath
+        locator: "//*[@text='上传店铺菜单' and contains(@resource-id, 'addMenu')]"
+        action: click
+      - by: xpath
+        locator: "//*[@resource-id='com.mstz.xf:id/picture_recycler']/android.widget.RelativeLayout[9]//*[@resource-id='com.mstz.xf:id/btnCheck']"
+        action: click
+      - by: xpath
+        locator: "//*[@text='已完成']"
+        action: click
+# 贡献招牌菜
+shop_zhaopaic:
+      - by: xpath
+        locator:  "//*[@text='贡献招牌菜' and contains(@resource-id, 'layoutAddCai')]"
+        action: click
+      - by: xpath
+        locator: "//*[@text='请输入菜品名称' and contains(@resource-id, 'etCaiName')]"
+        action: send
+        value: ${zhaopaic}
+      - by: id
+        locator: "fiv"
+        action: click
+      - by: xpath
+        locator: "//*[@resource-id='com.mstz.xf:id/picture_recycler']/android.widget.RelativeLayout[9]//*[@resource-id='com.mstz.xf:id/btnCheck']"
+        action: click
+      - by: xpath
+        locator: "//*[@text='已完成']"
+        action: click
+      - by: xpath
+        locator: "//*[@text='提交完成' and contains(@resource-id, 'submit')]"
+        action: click
+shop_zhaopaic_photo_null:
+      - by: xpath
+        locator:  "//*[@text='贡献招牌菜' and contains(@resource-id, 'layoutAddCai')]"
+        action: click
+      - by: xpath
+        locator: "//*[@text='请输入菜品名称' and contains(@resource-id, 'etCaiName')]"
+        action: send
+        value: ${zhaopaic}
+      - by: xpath
+        locator: "//*[@text='提交完成' and contains(@resource-id, 'submit')]"
+        action: click

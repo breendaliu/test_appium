@@ -1,0 +1,15 @@
+{
+  "test_add.py::TestAddshop::test_add_shop[shopname0-addressdescribe0-reason0]": true,
+  "test_add.py::TestAddshop::test_add_shop[value10]": true,
+  "test_add.py::TestAddshop::test_add_shop[value11]": true,
+  "test_add.py::TestAddshop::test_add_shop_into_detail[aaa-bbb-vvv]": true,
+  "test_add.py::TestAddshop::test_add_shop_list[\\u5e97\\u94fa\\u540d\\u79f0CCC-\\u8be6\\u7ec6\\u5730\\u5740\\u554a\\u554a\\u554a-\\u63a8\\u8350\\u7406\\u7531\\u554a\\u554a\\u554a]": true,
+  "test_add.py::TestAddshop::test_add_shop_list[\\u7c73\\u7ebf-\\u8be6\\u7ec6\\u5730\\u5740\\u554a\\u554a\\u554a-\\u63a8\\u8350\\u7406\\u7531\\u554a\\u554a\\u554a]": true,
+  "test_add.py::TestAddshop::test_add_shop_list[aaa-bbb-vvv]": true,
+  "test_add.py::TestAddshop::test_add_shop_lista": true,
+  "test_add.py::TestAddshop::test_add_shop_no_shopname": true,
+  "test_search.py::TestSearch::test_result_shopdetail": true,
+  "test_search.py::TestSearch::test_search[\\u7eeb\\u5d07\\u568e]": true,
+  "test_search.py::TestSearch::test_test01": true,
+  "test_userhome.py::TestUserhome::test_userhome_shopdetail": true
+}

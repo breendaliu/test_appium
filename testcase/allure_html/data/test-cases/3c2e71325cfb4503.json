@@ -1,0 +1,108 @@
+{
+  "uid" : "3c2e71325cfb4503",
+  "name" : "test_shop_address",
+  "fullName" : "testcase.test_additional.TestAddtional#test_shop_address",
+  "historyId" : "c3a4927c4bf3f7a781a1b3f7ab401064",
+  "time" : {
+    "start" : 1617867290133,
+    "stop" : 1617867294182,
+    "duration" : 4049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "record",
+    "time" : {
+      "start" : 1617866724450,
+      "stop" : 1617866724458,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e8703de0adb2118",
+      "name" : "ee62df87-6cb2-4d76-9afa-299ae0aa0109-attachment.png",
+      "source" : "5e8703de0adb2118.png",
+      "type" : "image/png",
+      "size" : 426206
+    }, {
+      "uid" : "ab0c3a02f6e26fd0",
+      "name" : "log",
+      "source" : "ab0c3a02f6e26fd0.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "record::0",
+    "time" : {
+      "start" : 1617869365227,
+      "stop" : 1617869365227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_additional"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddtional"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2SAB6FS"
+  }, {
+    "name" : "thread",
+    "value" : "13412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_additional"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c2e71325cfb4503.json",
+  "parameterValues" : [ ]
+}

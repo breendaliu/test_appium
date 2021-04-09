@@ -1,0 +1,66 @@
+userhome_data:
+  - by: id
+    locator: 'photo'
+    action: click
+uerhome_message:
+  - by: id
+    locator: 'rightLayout'
+    action: click
+userhome_set:
+  - by: id
+    locator: 'right_img'
+    action: click
+userhome_shop:
+  - action: set_implicitly_wait
+    value: 10
+  - by: xpath
+    locator: "//*[@text='店铺推荐' and @class='android.widget.TextView']"
+    action: click
+userhome_top:
+  - action: set_implicitly_wait
+    value: 10
+  - by: xpath
+    locator: "//*[@text='平台排名' and @class='android.widget.TextView']"
+    action: click
+userhome_shoppass:
+  - action: set_implicitly_wait
+    value: 5
+#  - action: swipe
+#    value1: 0.5
+#    value2: 0.8
+#    value3: 0.5
+#    value4: 0.2
+#  - action: set_implicitly_wait
+#    value: 5
+#  - action: swipe
+#    value1: 0.5
+#    value2: 0.3
+#    value3: 0.5
+#    value4: 0.7
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.RelativeLayout[1]"
+    action: click
+userhome_comment:
+  - by: xpath
+    locator: '//*[@text="评价"]'
+    action: click
+  - action: swipe
+    value1: 0.5
+    value2: 0.7
+    value3: 0.5
+    value4: 0.3
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.LinearLayout[2]/*[@resource-id='com.mstz.xf:id/shopLayout']"
+    action: click
+userhome_collect:
+  - by: xpath
+    locator: "//*[@text='收藏']"
+    action: click
+  - action: swipe
+    value1: 0.5
+    value2: 0.3
+    value3: 0.5
+    value4: 0.7
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.view.ViewGroup[2]"
+    action: click

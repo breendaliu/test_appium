@@ -1,0 +1,52 @@
+content_all:
+  - by: xpath
+    locator: "//*[@text='功能异常' and @resource-id='com.mstz.xf:id/questionName']"
+    action: click
+  - by: xpath
+    locator: "//*[@text='体验问题' and @resource-id='com.mstz.xf:id/questionName']"
+    action: click
+  - by: xpath
+    locator: "//*[@text='新功能建议' and @resource-id='com.mstz.xf:id/questionName']"
+    action: click
+  - by: xpath
+    locator: "//*[@text='其他问题' and @resource-id='com.mstz.xf:id/questionName']"
+    action: click
+  - by: id
+    locator: 'etContent'
+    action: send
+    value: ${content}
+  - by: id
+    locator: 'tv_expand_remain_mask'
+    action: click
+  - by: xpath
+    locator: "//*[@class='android.widget.RelativeLayout' and @index=2]"
+    action: click
+  - by: xpath
+    locator: "//*[@text='选择']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/tv_photo_picker_preview_submit' and contains(@text,'确定')]"
+    action: click
+  - by: id
+    locator: "com.mstz.xf:id/submit"
+    action: click
+content_no_group:
+  - by: id
+    locator: 'etContent'
+    action: send
+    value: ${content}
+  - by: id
+    locator: 'tv_expand_remain_mask'
+    action: click
+  - by: xpath
+    locator: "//*[@class='android.widget.RelativeLayout' and @index=2]"
+    action: click
+  - by: xpath
+    locator: "//*[@text='选择']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/tv_photo_picker_preview_submit' and contains(@text,'确定')]"
+    action: click
+  - by: id
+    locator: "com.mstz.xf:id/submit"
+    action: click

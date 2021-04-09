@@ -1,0 +1,204 @@
+# 上传店铺，选择当前位置
+add_shop:
+  # 店铺名称
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+ # 点击确定按钮
+  - by: id
+    locator: 'cancel'
+    action: click
+    # 获取当前位置
+  - by: id
+    locator: 'currentLocation'
+    action: click
+    # 输入详细位置
+  - by: id
+    locator: 'etAddressDescribe'
+    action: send
+    value: ${addressdescribe}
+    # 输入推荐理由
+  - by: id
+    locator: 'etReason'
+    action: send
+    value: ${reason}
+    # 点击确认上传按钮
+  - by: id
+    locator: 'upload'
+    action: click
+add_shop_noname:
+  - by: id
+    locator: 'currentLocation'
+    action: click
+  - by: id
+    locator: 'etAddressDescribe'
+    action: send
+    value: ${addressdescribe}
+  - by: id
+    locator: 'etReason'
+    action: send
+    value: ${reason}
+  - by: id
+    locator: 'upload'
+    action: click
+add_shop_noaddress:
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+  - by: id
+    locator: 'cancel'
+    action: click
+  - by: id
+    locator: 'etAddressDescribe'
+    action: send
+    value: ${addressdescribe}
+  - by: id
+    locator: 'etReason'
+    action: send
+    value: ${reason}
+  - by: id
+    locator: 'upload'
+    action: click
+add_shop_listname:
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+  - by: xpath
+    locator: '//*[@resource-id="com.mstz.xf:id/recyclerView"]/android.view.ViewGroup[3]'
+    action: click
+  - by: id
+    locator: 'etAddressDescribe'
+    action: send
+    value: ${addressdescribe}
+  - by: id
+    locator: 'etReason'
+    action: send
+    value: ${reason}
+  - by: id
+    locator: 'upload'
+    action: click
+add_shop_address_maps:
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+  - by: id
+    locator: 'cancel'
+    action: click
+  - by: id
+    locator: 'select'
+    action: click
+  - action: swipe
+    value1: 0.7
+    value2: 0.3
+    value3: 0.6
+    value4: 0.6
+  - by: id
+    locator: 'confirm'
+    action: click
+add_shop_address_maps_list:
+  - by: id
+    locator: 'select'
+    action: click
+  - action: swipe
+    value1: 0.5
+    value2: 0.7
+    value3: 0.5
+    value4: 0.3
+  - by: xpath
+    locator: '//*[@resource-id="com.mstz.xf:id/recyclerView"]/android.widget.LinearLayout[5]'
+    action: click
+  - by: id
+    locator: 'confirm'
+    action: click
+add_shop_no_addressdescribe:
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+  - by: id
+    locator: 'cancel'
+    action: click
+  - by: id
+    locator: 'currentLocation'
+    action: click
+  - by: id
+    locator: 'etReason'
+    action: send
+    value: ${reason}
+  - by: id
+    locator: 'upload'
+    action: click
+add_shop_seach_address:
+  - by: id
+    locator: 'select'
+    action: click
+  - by: xpath
+    locator: "//*[@text='搜索地点']"
+    action: send
+    value: ${address}
+  - by: xpath
+    locator: '//*[@resource-id="com.mstz.xf:id/recyclerView"]/android.widget.LinearLayout[3]'
+    action: click
+  - by: id
+    locator: 'confirm'
+    action: click
+add_shop_no_reason:
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+  - by: id
+    locator: 'cancel'
+    action: click
+  - by: id
+    locator: 'currentLocation'
+    action: click
+  - by: id
+    locator: 'etAddressDescribe'
+    action: send
+    value: ${addressdescribe}
+  - by: id
+    locator: 'upload'
+    action: click
+add_shop_into_detail:
+  - by: id
+    locator: 'etShopName'
+    action: send
+    value: ${shopname}
+  - by: id
+    locator: 'cancel'
+    action: click
+  - by: id
+    locator: 'currentLocation'
+    action: click
+  - by: id
+    locator: 'etReason'
+    action: send
+    value: ${reason}
+  - by: id
+    locator: 'upload'
+    action: click
+  - by: id
+    locator: 'checkMyShop'
+    action: click
+add_shop_return:
+  - by: id
+    locator: 'select'
+    action: click
+  - by: xpath
+    locator: "//*[@text='搜索地点']"
+    action: send
+    value: ${address}
+  - by: xpath
+    locator: "//*[@text='取消' and contains(@resource-id, 'cancel')]"
+    action: click
+  - by: xpath
+    locator: "//*[@class='android.widget.RelativeLayout']//*[@text='取消']"
+    action: click
+  - by: id
+    locator: "ll_title_back"
+    action: click

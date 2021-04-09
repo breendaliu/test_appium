@@ -1,0 +1,100 @@
+# 修改头像
+useredit:
+  - by: id
+    locator: 'ivPhoto'
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/rv_photo_picker_content']/android.widget.RelativeLayout[2]//*[@resource-id='com.mstz.xf:id/iv_item_photo_picker_flag']"
+    action: click
+#  - by: id
+#    locator: 'tv_photo_picker_preview_choose'
+#    action: click
+  - by: id
+    locator: 'com.mstz.xf:id/tv_photo_picker_submit'
+    action: click
+  - by: id
+    locator: 'menu_crop'
+    action: click
+# 修改昵称
+uesrname:
+  - by: xpath
+    locator: "//*[@text='昵称']"
+    action: click
+  - by: id
+    locator: "et_nickName"
+    action: click
+  - by: id
+    locator: "et_nickName"
+    action: send
+    value: ${username}
+  - by: xpath
+    locator: "//*[@text='确 定']"
+    action: click
+usersex_nv:
+  - by: xpath
+    locator: "//*[@text='性别']"
+    action: click
+  - by: id
+    locator: 'nv'
+    action: click
+  - by: xpath
+    locator: "//*[@text='确 定']"
+    action: click
+usersex_nan:
+  - by: xpath
+    locator: "//*[@text='性别']"
+    action: click
+  - by: id
+    locator: 'nan'
+    action: click
+  - by: xpath
+    locator: "//*[@text='确 定']"
+    action: click
+user_city_list:
+  - by: xpath
+    locator: "//*[@text='城市']"
+    action: click
+  - action: swipe
+    value1: 0.5
+    value2: 0.7
+    value3: 0.5
+    value4: 0.3
+  - by: xpath
+    locator: "//*[@class='android.widget.LinearLayout' and @index='12']"
+    action: click
+user_city_hot:
+  - by: xpath
+    locator: "//*[@text='城市']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/hotCity']/android.widget.LinearLayout[1]"
+    action: click
+user_city_search:
+  - by: xpath
+    locator: "//*[@text='城市']"
+    action: click
+  - by: id
+    locator: 'et_cityName'
+    action: send
+    value: ${cityname}
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.LinearLayout[2]"
+    action: click
+user_city_gps:
+  - by: xpath
+    locator: "//*[@text='城市']"
+    action: click
+  - by: id
+    locator: 'rl_location'
+    action: click
+user_city_history:
+  - by: xpath
+    locator: "//*[@text='城市']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/historyCity']/android.widget.LinearLayout[1]"
+    action: click
+user_update:
+  - by: xpath
+    locator: "//*[@text='保存']"
+    action: click

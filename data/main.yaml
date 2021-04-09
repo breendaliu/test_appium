@@ -1,0 +1,65 @@
+goto_addshop:
+        - by: id
+          locator: "com.mstz.xf:id/addShop"
+          action: click
+goto_search:
+        - by: id
+          locator: "com.mstz.xf:id/photo"
+          action: click
+        - by: id
+          locator: "com.mstz.xf:id/searchText"
+          action: click
+goto_user:
+        - by: id
+          locator: 'photo'
+          action: click
+goto_userdata:
+        - by: id
+          locator: 'edit'
+          action: click
+goto_userhome:
+        - by: xpath
+          locator: "//*[@text='个人主页']"
+          action: click
+goto_usershop:
+       - by: xpath
+         locator: "//*[@text='我的推荐']"
+         action: click
+goto_shop_addtional:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: "毛肚米线"
+    - by: xpath
+      locator: "//*[@resource-id='com.mstz.xf:id/searchRecyclerView']/android.widget.LinearLayout[1]"
+      action: click
+    - action: swipe
+      value1: 0.5
+      value2: 0.7
+      value3: 0.5
+      value4: 0.3
+    - by: xpath
+      locator: "//*[@text='补充店铺信息']"
+      action: click
+goto_shop_detail:
+    - by: id
+      locator: "et_key"
+      action: click
+    - by: id
+      locator: "et_key"
+      action: send
+      value: "毛肚米线"
+    - by: xpath
+      locator: "//*[@resource-id='com.mstz.xf:id/searchRecyclerView']/android.widget.LinearLayout[1]"
+      action: click
+goto_set:
+    - by: id
+      locator: 'right_img'
+      action: click
+goto_content:
+    - by: id
+      locator: "rl_feedBack"
+      action: click

@@ -1,0 +1,1 @@
+pytest.ini：pytest的主配置文件，可以改变pytest的默认行为

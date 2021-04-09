@@ -1,0 +1,45 @@
+# 查看商家图片
+shop_photo:
+  - by: id
+    locator: "com.mstz.xf:id/banner"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/recyclerView']/android.widget.RelativeLayout[2]"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/title_back_img' and @class='android.widget.ImageView']"
+    action: click
+  - by: xpath
+    locator: "//*[@resource-id='com.mstz.xf:id/ll_title_back' and @class='android.widget.LinearLayout']"
+    action: click
+# 查看招牌菜
+shop_zhaopaic:
+  - by: id
+    locator: 'com.mstz.xf:id/tvMenu'
+    action: click
+  - by: id
+    locator: 'com.mstz.xf:id/tvZhaoPai'
+    action: click
+  - action: swipe
+    value1: 0.8
+    value2: 0.8
+    value3: 0.2
+    value4: 0.8
+  - by: id
+    locator: 'com.mstz.xf:id/tvName'
+    action: click
+  - by: id
+    locator: 'com.mstz.xf:id/ll_title_back'
+    action: click
+# 投票
+shop_vote:
+  - action: swipe
+    value1: 0.5
+    value2: 0.6
+    value3: 0.5
+    value4: 0.4
+# 收藏店铺
+shop_collect:
+  - by: id
+    locator: "com.mstz.xf:id/collection"
+    action: click
